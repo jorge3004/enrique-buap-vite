@@ -1,0 +1,6 @@
+services:
+  react-prod:
+    build: .
+    ports:
+      - 80:80
+      # - 8082:80
